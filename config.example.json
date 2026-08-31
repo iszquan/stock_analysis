@@ -1,0 +1,102 @@
+{
+  "watchlist": [
+    {
+      "code": "1.000001",
+      "name": "上证指数"
+    },
+    {
+      "code": "1.000688",
+      "name": "科创50"
+    },
+    {
+      "code": "1.000941",
+      "name": "新能源指数"
+    },
+    {
+      "code": "513880",
+      "name": "日经225ETF"
+    },
+    {
+      "code": "159819",
+      "name": "人工智能ETF"
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代"
+    },
+    {
+      "code": "688256",
+      "name": "寒武纪"
+    },
+    {
+      "code": "124.HSTECH",
+      "name": "恒生科技"
+    },
+    {
+      "code": "ths.884286",
+      "name": "锂概念(同花顺)"
+    },
+    {
+      "code": "ths.886033",
+      "name": "CPO光学(同花顺)"
+    },
+    {
+      "code": "ths.886108",
+      "name": "AI应用(同花顺)"
+    },
+    {
+      "code": "ths.886078",
+      "name": "商业航天(同花顺)"
+    }
+  ],
+  "poll_interval_sec": 60,
+  "pct_alert": 3.0,
+  "quick_move_pct": 1.5,
+  "quick_window_min": 10,
+  "vol_ratio_alert": 2.5,
+  "limit_near_pct": 0.2,
+  "cooldown_min": 30,
+  "adaptive_pct": {
+    "enabled": true,
+    "atr_mult": 2.0,
+    "min_pct": 1.5,
+    "max_pct": 8.0
+  },
+  "web_dashboard": {
+    "enabled": true,
+    "port": 8899
+  },
+  "ai_reports": {
+    "enabled": true,
+    "premarket": "09:15",
+    "midday": "11:40",
+    "close": "15:12"
+  },
+  "notify": {
+    "macos": true,
+    "macos_style": "dialog",
+    "dialog_timeout_sec": 25,
+    "sound": "Glass",
+    "serverchan_sendkey": "",
+    "pushplus_token": "",
+    "wxpusher_app_token": "",
+    "wxpusher_uid": "",
+    "wecom_corpid": "",
+    "wecom_secret": "",
+    "wecom_agentid": 1000002,
+    "bark_key": "",
+    "feishu_webhook": "",
+    "feishu_secret": "",
+    "dingtalk_webhook": "",
+    "dingtalk_secret": ""
+  },
+  "ai": {
+    "enabled": true,
+    "api_key": "",
+    "base_url": "https://integrate.api.nvidia.com/v1",
+    "model": "minimaxai/minimax-m3",
+    "max_chars": 110,
+    "daily_limit": 40,
+    "timeout_sec": 30
+  }
+}
